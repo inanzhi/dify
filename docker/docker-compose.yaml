@@ -543,6 +543,9 @@ services:
     networks:
       - ssrf_proxy_network
       - default
+    #新添加的端口映射 让dify插件能够通过这个端口连接到主机
+#    ports:
+#       - "5003:5003"  # 主机端口:容器端口
 
   # Frontend web application.
   web:
