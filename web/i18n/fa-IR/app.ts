@@ -97,6 +97,7 @@ const translation = {
     completionUserDescription: 'به سرعت یک دستیار هوش مصنوعی برای وظایف تولید متن با پیکربندی ساده بسازید.',
     advancedShortDescription: 'گردش‌کار پیشرفته برای گفتگوهای چند مرحله‌ای',
     agentUserDescription: 'یک عامل هوشمند که قادر به استدلال تکراری و استفاده از ابزار مستقل برای دستیابی به اهداف وظیفه است.',
+    dropDSLToCreateApp: 'فایل DSL را اینجا رها کنید تا برنامه ساخته شود',
   },
   editApp: 'ویرایش اطلاعات',
   editAppTitle: 'ویرایش اطلاعات برنامه',
@@ -138,6 +139,14 @@ const translation = {
       configured: 'پیکربندی شده',
       notConfigured: 'برای فعال‌سازی ردیابی ارائه‌دهنده را پیکربندی کنید',
       moreProvider: 'ارائه‌دهندگان بیشتر',
+    },
+    arize: {
+      title: 'Arize',
+      description: 'قابلیت مشاهده LLM در سطح سازمانی، ارزیابی آنلاین و آفلاین، نظارت و آزمایش — با پشتیبانی از OpenTelemetry. طراحی‌شده مخصوص برنامه‌های مبتنی بر LLM و عامل‌ها.',
+    },
+    phoenix: {
+      title: 'Phoenix',
+      description: 'پلتفرم متن‌باز و مبتنی بر OpenTelemetry برای مشاهده‌پذیری، ارزیابی، مهندسی پرامپت و آزمایش برای جریان‌های کاری و عامل‌های LLM شما.',
     },
     langsmith: {
       title: 'LangSmith',
@@ -209,6 +218,43 @@ const translation = {
     modelNotSupportedTip: 'مدل فعلی این ویژگی را پشتیبانی نمی‌کند و به‌طور خودکار به تزریق درخواست تنزل پیدا می‌کند.',
     structuredTip: 'خروجی‌های ساختاری یک ویژگی است که تضمین می‌کند مدل همیشه پاسخ‌هایی تولید می‌کند که به طرح JSON ارائه شده شما پایبند باشد.',
   },
+  accessItemsDescription: {
+    specific: 'فقط گروه‌ها یا اعضای خاصی می‌توانند به اپلیکیشن وب دسترسی پیدا کنند.',
+    anyone: 'هر کسی می‌تواند به وب‌اپلیکیشن دسترسی پیدا کند',
+    organization: 'هر کسی در سازمان می‌تواند به اپلیکیشن وب دسترسی پیدا کند.',
+    external: 'تنها کاربران خارجی تأیید شده می‌توانند به برنامه وب دسترسی پیدا کنند.',
+  },
+  accessControlDialog: {
+    accessItems: {
+      specific: 'گروه‌ها یا اعضای خاص',
+      organization: 'فقط اعضای داخل سازمان',
+      anyone: 'هر کسی که لینک را داشته باشد',
+      external: 'کاربران خارجی تأیید شده',
+    },
+    operateGroupAndMember: {
+      searchPlaceholder: 'گروه‌ها و اعضا را جستجو کنید',
+      allMembers: 'تمام اعضا',
+      noResult: 'نتیجه‌ای نیست',
+      expand: 'گسترش',
+    },
+    description: 'مجوزهای دسترسی به برنامه وب را تنظیم کنید',
+    accessLabel: 'چه کسی به آن دسترسی دارد',
+    groups_one: '{{count}} گروه',
+    groups_other: '{{count}} گروه',
+    members_one: '{{count}} عضو',
+    members_other: '{{count}} عضو',
+    noGroupsOrMembers: 'هیچ گروه یا عضوی انتخاب نشده است',
+    title: 'کنترل دسترسی به وب اپلیکیشن',
+    updateSuccess: 'به‌روز رسانی با موفقیت انجام شد',
+    webAppSSONotEnabledTip: 'لطفاً با مدیر شرکت تماس بگیرید تا روش احراز هویت برنامه وب را پیکربندی کند.',
+  },
+  publishApp: {
+    notSet: 'تنظیم نشده است',
+    notSetDesc: 'در حال حاضر هیچ‌کس نمی‌تواند به برنامه وب دسترسی پیدا کند. لطفاً مجوزها را تنظیم کنید.',
+    title: 'چه کسی می‌تواند به برنامه وب دسترسی داشته باشد؟',
+  },
+  accessControl: 'کنترل دسترسی به وب اپلیکیشن',
+  noAccessPermission: 'دسترسی به برنامه وب مجاز نیست',
 }
 
 export default translation

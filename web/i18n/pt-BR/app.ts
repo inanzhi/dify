@@ -93,6 +93,7 @@ const translation = {
     workflowShortDescription: 'Fluxo agêntico para automações inteligentes',
     noAppsFound: 'Nenhum aplicativo encontrado',
     advancedShortDescription: 'Fluxo aprimorado para conversas de múltiplos turnos',
+    dropDSLToCreateApp: 'Cole o arquivo DSL aqui para criar o aplicativo',
   },
   editApp: 'Editar Informações',
   editAppTitle: 'Editar Informações do Aplicativo',
@@ -134,6 +135,14 @@ const translation = {
       configured: 'Configurado',
       notConfigured: 'Configure o provedor para habilitar o rastreamento',
       moreProvider: 'Mais provedores',
+    },
+    arize: {
+      title: 'Arize',
+      description: 'Observabilidade de LLM de nível empresarial, avaliação online e offline, monitoramento e experimentação—impulsionada pelo OpenTelemetry. Projetado especificamente para aplicações baseadas em LLM e agentes.',
+    },
+    phoenix: {
+      title: 'Phoenix',
+      description: 'Plataforma de observabilidade, avaliação, engenharia de prompts e experimentação de código aberto baseada em OpenTelemetry para seus fluxos de trabalho e agentes de LLM.',
     },
     langsmith: {
       title: 'LangSmith',
@@ -209,6 +218,43 @@ const translation = {
     moreFillTip: 'Mostrando um máximo de 10 níveis de aninhamento',
     notConfiguredTip: 'A saída estruturada ainda não foi configurada.',
   },
+  accessItemsDescription: {
+    anyone: 'Qualquer pessoa pode acessar o aplicativo web',
+    specific: 'Apenas grupos ou membros específicos podem acessar o aplicativo web',
+    organization: 'Qualquer pessoa na organização pode acessar o aplicativo web',
+    external: 'Apenas usuários externos autenticados podem acessar o aplicativo Web.',
+  },
+  accessControlDialog: {
+    accessItems: {
+      anyone: 'Qualquer pessoa com o link',
+      specific: 'Grupos específicos ou membros',
+      organization: 'Apenas membros dentro da empresa',
+      external: 'Usuários externos autenticados',
+    },
+    operateGroupAndMember: {
+      searchPlaceholder: 'Pesquisar grupos e membros',
+      allMembers: 'Todos os membros',
+      expand: 'Expandir',
+      noResult: 'Nenhum resultado',
+    },
+    title: 'Controle de Acesso do Aplicativo Web',
+    description: 'Defina as permissões de acesso do aplicativo da web',
+    accessLabel: 'Quem tem acesso',
+    groups_one: '{{count}} GRUPO',
+    groups_other: '{{count}} GRUPOS',
+    members_other: '{{count}} MEMBROS',
+    noGroupsOrMembers: 'Nenhum grupo ou membro selecionado',
+    updateSuccess: 'Atualização bem-sucedida',
+    members_one: '{{count}} MEMBRO',
+    webAppSSONotEnabledTip: 'Por favor, entre em contato com o administrador da empresa para configurar o método de autenticação da aplicação web.',
+  },
+  publishApp: {
+    title: 'Quem pode acessar o aplicativo web',
+    notSet: 'Não definido',
+    notSetDesc: 'Atualmente, ninguém pode acessar o aplicativo web. Por favor, defina as permissões.',
+  },
+  accessControl: 'Controle de Acesso do Aplicativo Web',
+  noAccessPermission: 'Sem permissão para acessar o aplicativo web',
 }
 
 export default translation

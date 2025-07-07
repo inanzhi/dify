@@ -99,6 +99,7 @@ const translation = {
     agentUserDescription: 'Inteligentny agent zdolny do iteracyjnego wnioskowania i autonomicznego wykorzystania narzędzi do osiągania celów zadań.',
     workflowShortDescription: 'Agentowy przepływ dla inteligentnych automatyzacji',
     advancedUserDescription: 'Przepływ z dodatkowymi funkcjami pamięci i interfejsem chatbota.',
+    dropDSLToCreateApp: 'Upuść plik DSL tutaj, aby utworzyć aplikację',
   },
   editApp: 'Edytuj informacje',
   editAppTitle: 'Edytuj informacje o aplikacji',
@@ -141,6 +142,14 @@ const translation = {
       configured: 'Skonfigurowano',
       notConfigured: 'Skonfiguruj dostawcę, aby włączyć śledzenie',
       moreProvider: 'Więcej dostawców',
+    },
+    arize: {
+      title: 'Arize',
+      description: 'Obserwowalność LLM klasy korporacyjnej, ocena online i offline, monitorowanie i eksperymentowanie — oparta na OpenTelemetry. Zaprojektowana specjalnie dla aplikacji opartych na LLM i agentach.',
+    },
+    phoenix: {
+      title: 'Phoenix',
+      description: 'Otwarta i oparta na OpenTelemetry platforma do obserwowalności, oceny, inżynierii promptów i eksperymentowania dla Twoich przepływów pracy i agentów LLM.',
     },
     langsmith: {
       title: 'LangSmith',
@@ -216,6 +225,43 @@ const translation = {
     modelNotSupported: 'Model nie jest obsługiwany',
     modelNotSupportedTip: 'Aktualny model nie obsługuje tej funkcji i zostaje automatycznie obniżony do wstrzyknięcia zapytania.',
   },
+  accessItemsDescription: {
+    anyone: 'Każdy może uzyskać dostęp do aplikacji webowej',
+    specific: 'Tylko określone grupy lub członkowie mogą uzyskać dostęp do aplikacji internetowej',
+    organization: 'Każdy w organizacji ma dostęp do aplikacji internetowej.',
+    external: 'Tylko uwierzytelnieni zewnętrzni użytkownicy mogą uzyskać dostęp do aplikacji internetowej.',
+  },
+  accessControlDialog: {
+    accessItems: {
+      anyone: 'Każdy z linkiem',
+      specific: 'Specyficzne grupy lub członkowie',
+      organization: 'Tylko członkowie w obrębie przedsiębiorstwa',
+      external: 'Uwierzytelnieni użytkownicy zewnętrzni',
+    },
+    operateGroupAndMember: {
+      searchPlaceholder: 'Szukaj grup i członków',
+      allMembers: 'Wszyscy członkowie',
+      expand: 'Rozszerz',
+      noResult: 'Brak wyniku',
+    },
+    title: 'Kontrola dostępu do aplikacji internetowej',
+    description: 'Ustaw uprawnienia dostępu do aplikacji webowej',
+    accessLabel: 'Kto ma dostęp',
+    groups_one: '{{count}} GRUPA',
+    groups_other: '{{count}} GRUPY',
+    members_one: '{{count}} CZŁONEK',
+    members_other: '{{count}} CZŁONKÓW',
+    noGroupsOrMembers: 'Nie wybrano żadnych grup ani członków',
+    webAppSSONotEnabledTip: 'Proszę skontaktować się z administratorem przedsiębiorstwa, aby skonfigurować metodę uwierzytelniania aplikacji internetowej.',
+    updateSuccess: 'Aktualizacja powiodła się',
+  },
+  publishApp: {
+    title: 'Kto ma dostęp do aplikacji internetowej',
+    notSet: 'Nie ustawiono',
+    notSetDesc: 'Obecnie nikt nie może uzyskać dostępu do aplikacji internetowej. Proszę ustawić uprawnienia.',
+  },
+  accessControl: 'Kontrola dostępu do aplikacji internetowej',
+  noAccessPermission: 'Brak uprawnień do dostępu do aplikacji internetowej',
 }
 
 export default translation
