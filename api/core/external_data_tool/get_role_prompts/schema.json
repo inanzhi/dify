@@ -1,0 +1,35 @@
+{
+    "label": {
+        "en-US": "select role json info",
+        "zh-Hans": "查询role json信息"
+    },
+    "form_schema": [
+        {
+            "type": "select",
+            "label": {
+                "en-US": "Temperature Unit",
+                "zh-Hans": "温度单位"
+            },
+            "variable": "temperature_unit",
+            "required": true,
+            "options": [
+                {
+                    "label": {
+                        "en-US": "Fahrenheit",
+                        "zh-Hans": "华氏度"
+                    },
+                    "value": "fahrenheit"
+                },
+                {
+                    "label": {
+                        "en-US": "Centigrade",
+                        "zh-Hans": "摄氏度"
+                    },
+                    "value": "centigrade"
+                }
+            ],
+            "default": "centigrade",
+            "placeholder": "Please select temperature unit"
+        }
+    ]
+}
